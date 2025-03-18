@@ -8,6 +8,15 @@
   line-height: 22.5px;
   color: #fff;
   cursor: pointer;
+  background: var(--button-color);
+  border-radius: var(--button-border-radius);
+
+  @include hover(transform, scale(1.1));
+
+  transition:
+    background-color 0.3s,
+    border-radius 0.3s,
+    transform 0.3s;
 
   @include on-tablet {
     width: 264px;
@@ -23,6 +32,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+
+  @include hover(transform, scale(1.2));
 
   &__label {
     font-family: Poppins, sans-serif;

@@ -27,6 +27,8 @@
 
 .icon--close {
   display: block;
+
+  @include hover(transform, scale(1.4));
 }
 
 .nav__list--aside-menu {

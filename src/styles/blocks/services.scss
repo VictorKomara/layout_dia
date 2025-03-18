@@ -72,6 +72,8 @@
       border-radius: 16px;
       grid-column: span 3;
 
+      @include hover(transform, scale(1.09));
+
       &__number {
         font-family: Poppins, sans-serif;
         font-size: 13px;

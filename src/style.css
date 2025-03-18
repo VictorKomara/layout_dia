@@ -142,14 +142,6 @@
   transition: background-color 0.3s;
 }
 
-.button-main {
-  background: var(--button-color);
-  border-radius: var(--button-border-radius);
-  transition:
-    background-color 0.3s,
-    border-radius 0.3s;
-}
-
 .motto {
   background-image: var(--motto-background-image);
 }

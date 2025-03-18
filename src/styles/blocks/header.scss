@@ -137,6 +137,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
+      @include hover(transform, scale(1.3));
     }
   }
 }
@@ -170,6 +172,8 @@
   background-color: #fff;
   padding: 4px;
   cursor: pointer;
+
+  @include hover(transform, scale(1.15));
 }
 
 .theme-switcher::after {
@@ -205,6 +209,8 @@
   @include on-small-desktop {
     visibility: hidden;
   }
+
+  @include hover(transform, scale(1.4));
 }
 
 .menu img {

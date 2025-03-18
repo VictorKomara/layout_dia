@@ -126,6 +126,12 @@
     flex-direction: column;
   }
 
+  &__link {
+    text-decoration: none;
+
+    @include hover(transform, scale(1.08));
+  }
+
   &__description {
     font-family: Poppins, sans-serif;
     font-size: 13px;
@@ -153,6 +159,10 @@
     margin-top: 8px;
     display: flex;
     gap: 32px;
+  }
+
+  &__icon {
+    @include hover(transform, scale(1.4));
   }
 
   &__icon:hover {
